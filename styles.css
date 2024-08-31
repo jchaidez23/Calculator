@@ -1,0 +1,19 @@
+.page{
+    border: 10px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator_container{
+    border: 10px blue solid;
+    width: 960px;
+    height: 960px;
+    background-color: darkgray;
+}
+
+.results_row{
+    /* border: 10px red solid; */
+    height: 192px;
+    background-color: black;
+    border-radius: 10px;
+}
