@@ -5,15 +5,57 @@
 }
 
 .calculator_container{
-    border: 10px blue solid;
+    border: 10px gray solid;
     width: 960px;
     height: 960px;
-    background-color: darkgray;
+    background-color: black;
 }
 
 .results_row{
     /* border: 10px red solid; */
-    height: 192px;
+    height: 160px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 1px;
+}
+
+.operation_row{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#dot_operator, #operator, #number{
+    display: flex;
+    justify-content: center;
+}
+
+#operator{
+    background-color: orange;
+}
+.number_row{
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#dot_operator, #number{
+    background-color: gray;
+}
+
+#dot_operator, #operator,#number{
+    font-weight: bolder;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 2em;
+    border: 10px solid black;
+    border-radius:50%;
+    padding: 0.5em;
+}
+
+#dot_operator:hover, #operator:hover, #number:hover{
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
