@@ -10,15 +10,19 @@ function calculate(num1,num2,operator){
             break;
         case '-':
             console.log(parseInt(num1) - parseInt(num2));
+            display(String(parseInt(num1) - parseInt(num2)));
             break;
         case '/':
             console.log(parseInt(num1) / parseInt(num2));
+            display(String(parseInt(num1) / parseInt(num2)));
             break;
         case 'X':
             console.log(parseInt(num1) * parseInt(num2));
+            display(String(parseInt(num1) * parseInt(num2)));
             break;
         case '%':
             console.log(parseInt(num1) % parseInt(num2));
+            display(String(parseInt(num1) % parseInt(num2)));
             break;
     }
 }
